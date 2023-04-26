@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+</head>
+<body>
+ 
+    <div class="heading">
+        <h1>Survey form</h1>
+
+       <form >
+        <fieldset class="section">
+            <legend>Name section </legend>
+            <label for="fname">First Name </label>
+            <input type="text" name="first_name" id="fname" required>
+            <br>
+            <label for="lname">Last Name </label>
+            <input type="text" name="last_name" id="lname" required>
+        </fieldset >
+        <br>
+        <fieldset class="section">
+            <legend>Adress Section</legend>
+            <label for="street">Street </label>
+            <input type="text" name="street_address" id="street" required>
+            <br>
+            <label for="city">City </label>
+            <input type="text" name="city" id="city" required>
+            <br>
+            <label for="state">State </label>
+            <input type="text" name="state" id="state" required>
+            <br>
+            <label for="pin"> Pin Code </label>
+            <input type="number" name="pincode" id="pin" required>
+        </fieldset>
+        <br>
+        <fieldset class="section">
+            <legend>contact section</legend>
+            <label for="contact">Contact No </label>
+            <input type="number" name="contact_number" id="contact" required>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Rating Section</legend>            
+            <label  >quality of Product Received</label>
+            <br>
+            <input type="radio" name="quality_of_products_received_rating" id="excellent1" value="excellent" required>
+            <label for="excellent1"class="rate"> excellent</label>
+            <br>
+            <input type="radio" name="quality_of_products_received_rating" id="good1" value="good" required>
+            <label for="good1" class="rate">good</label>
+            <br>
+            <input type="radio" name="quality_of_products_received_rating" id="bad1" value="bad" required>
+            <label for="bad1" class="rate">bad</label>
+            
+
+            <br><br>
+
+            <label >Value for money</label>
+            <br>
+            <input type="radio" name="value_for_money_rating" id="excellent2" value="excellent" required>
+            <label for="excellent2" class="rate"> excellent</label>
+            <br>
+            <input type="radio" name="value_for_money_rating" id="good2" value="good" required>
+            <label for="good2" class="rate">good</label>
+            <br>
+            <input type="radio" name="value_for_money_rating" id="bad2" value="bad" required>
+            <label for="bad2" class="rate">bad</label>
+            
+
+            <br><br>
+
+            <label >Delivery</label>
+            <br>
+            <input type="radio" name="delivery_rating" id="excellent3" value="excellent" arequired>
+            <label for="excellent3"  class="rate"> excellent</label>
+            <br>
+            <input type="radio" name="delivery_rating" id="good3" value="good" required>
+            <label for="good3" class="rate">good</label>
+            <br>
+            <input type="radio" name="delivery_rating" id="bad3" value="bad" required>
+            <label for="bad3" class="rate">bad</label>
+        </fieldset>
+        <br>
+
+        <div class="submit">
+            <input type="submit">
+        </div>
+    </form>
+</div>
+</body>
+</html>
